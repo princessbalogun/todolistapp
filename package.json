@@ -1,0 +1,26 @@
+{
+  "name": "first-app",
+  "version": "0.1.0",
+  "homepage": "http://princessbalogun.github.io/todolist",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "^1.0.0-beta.6",
+    "aphrodite": "^2.4.0",
+    "next": "13.4.4",
+    "react": "18.2.0",
+    "react-animations": "^1.0.0",
+    "react-dom": "18.2.0",
+    "react-typewriter-effect": "^1.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
